@@ -22,8 +22,3 @@ const lightbox = new SimpleLightbox(".gallery a", {
   captionType: "data-alt",
   captionsData: "alt",
 });
-parentElement.addEventListener("click", (event) => {
-  event.preventDefault();
-  if (event.target.classList.contains("gallery__image")) {
-  }
-});
